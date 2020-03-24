@@ -15,3 +15,5 @@ import numpy as np
 np.random.seed(123)
 df = pd.DataFrame(np.random.randn(10, 4))
 pieces = [df[:3], df[3:7], df[7:]]
+print(df)
+print(pieces)
